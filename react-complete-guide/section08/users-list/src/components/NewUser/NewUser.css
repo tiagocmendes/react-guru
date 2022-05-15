@@ -1,0 +1,52 @@
+input,
+label {
+    display: block;
+}
+
+label {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(0, 162, 255);
+}
+
+input {
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 162, 255);
+}
+
+input:hover {
+    cursor: pointer;
+    background-color: rgb(231, 246, 255);
+}
+
+button {
+    background-color: rgb(0, 162, 255);
+    border: transparent;
+    color: white;
+    padding: 15px 40px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: transparent;
+    color: rgb(0, 162, 255);
+    border: 1px solid rgb(0, 162, 255);
+    cursor: pointer;
+}
+
+.valid-user {
+    font-size: 22px;
+    color: rgb(0, 221, 184);
+}
+
+.invalid-user {
+    font-size: 22px;
+    color: red;
+}
