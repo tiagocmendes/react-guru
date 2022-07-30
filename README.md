@@ -1,4 +1,4 @@
-# react-guru
+# react-training
 
 Repository for the [React - The Complete Guide](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) course on Udemy
 
