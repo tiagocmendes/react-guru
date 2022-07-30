@@ -1,14 +1,14 @@
 import { useState } from "react";
 
-import { Display } from "./components/Display";
-import { CalculatorButton } from "./components/CalculatorButton";
+import { Display } from "../components/Display";
+import { CalculatorButton } from "../components/CalculatorButton";
 
-import { Button, ButtonType } from "./models/button";
-import { buttons } from "./constants/buttons";
+import { Button, ButtonType } from "../models/button";
+import { buttons } from "../constants/buttons";
 
-import { operate } from "./utils/operate";
+import { operate } from "../utils/operate";
 
-function App() {
+function UseStateApproach() {
     const [displayValue, setDisplayValue] = useState<string>("");
     const [previousOperand, setPreviousOperand] = useState<string>("");
     const [currentOperator, setCurrentOperator] = useState<string>("");
@@ -81,4 +81,4 @@ function App() {
     );
 }
 
-export default App;
+export default UseStateApproach;
