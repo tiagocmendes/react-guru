@@ -54,6 +54,7 @@ export const DisplayContextProvider: React.FC<{ children: React.ReactNode }> = (
                 setDisplay("");
                 setPreviousDisplay("");
                 setOperator("");
+                setOperationCompleted(false);
                 break;
             case ButtonType.SYMMETRIC:
                 setDisplay((prevState) =>

@@ -38,6 +38,7 @@ function UseStateApproach() {
                 setDisplayValue("");
                 setPreviousOperand("");
                 setCurrentOperator("");
+                setOperationCompleted(false);
                 break;
             case ButtonType.SYMMETRIC:
                 setDisplayValue((prevState) =>
